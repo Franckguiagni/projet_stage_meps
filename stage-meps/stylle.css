@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/* Classe pour le fond bleu */
+
+
+
+h1, h2 {
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 12px; /* Augmentation de la taille des champs */
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1em; /* Augmentation de la taille du texte */
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Augmentation de la taille du bouton */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em; /* Augmentation de la taille du texte */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.site-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.site-header h1 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+}
+
+.site-header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.site-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.site-header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site-footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.site-footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}

@@ -1,0 +1,33 @@
+/* Styles pour le bouton */
+#loadingButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative; /* Important pour positionner l'animation */
+    overflow: hidden; /* Garde l'animation à l'intérieur des bordures du bouton */
+}
+
+/* Animation de chargement */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+    transform: translate(-50%, -50%); /* Centre l'animation */
+    visibility: hidden; /* Cache l'animation par défaut */
+}

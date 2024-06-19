@@ -1,0 +1,40 @@
+
+    body {
+        font-family: 'Rubik Scribble', sans-serif; /* Consistency in font styling */
+    }
+
+    .table {
+        margin-top: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow around table */
+    }
+
+    th, td {
+        text-align: center; /* Center align text in th and td for better readability */
+    }
+
+    th {
+        background-color: #007BFF; /* Theme color for header */
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2; /* Zebra striping for rows */
+    }
+
+    tr:hover {
+        background-color: #ccefff; /* Hover effect for rows */
+        cursor: pointer; /* Indicates the row is interactive */
+    }
+
+    img {
+        width: 100px;
+        height: auto;
+        border-radius: 50%; /* Makes images circular */
+    }
+    h2 {
+        text-align: center; /* Centers the title */
+        color: #007BFF; /* Theme color for the title */
+        padding: 20px 0; /* Adds space above and below the title */
+        font-family: 'Romanesco', cursive; /* Stylish font for the title */
+    }
+
